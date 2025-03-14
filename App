@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color:rgba(0, 0, 0, 0.858);
+    color:white;
+    box-sizing: border-box;
+}
+
+.read{
+    padding:50px 50px;
+    width:100%;
+    height:700px;
+    background-color:rgb(73, 73, 73);
+}
+.read form{
+    width:100%;
+    height:30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:10px 10px;
+    background-color: rgb(74, 70, 78);
+    border:1px solid white;
+    box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+}
+h4{
+    background-color: rgb(74, 70, 78);
+    
+}
+
+.inp{
+    width:200px;
+    height: 40px;
+    padding:0px 10px;
+    border-radius:5px;
+    outline:none;
+    border:none;
+}
+button{
+    width:100px;
+    background-color:red;
+    color:white;
+    border-radius:5px;
+    border:none;
+    height:40px;
+}
+.Run{
+    width:100%;
+    height:400px;
+  margin-top:30px;
+  padding:0px 10px;
+  overflow-y: auto;
+}
