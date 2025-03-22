@@ -1,0 +1,106 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:cursive;
+}
+.wrap{
+    width:100%;
+    height:100vh;
+    background-color:rgb(0, 0, 0);
+    display:flex;
+}
+.wrap .chats{
+    width:70%;
+    height:auto;
+    background: rgba(128, 123, 114, 0.7); /* Oq rang, 70% shaffoflik */
+    backdrop-filter: blur(25px); /* Kuchli blur effekti */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+.wrap .User{
+    padding:20px 20px;
+    width:30%;
+    background-color:rgb(45, 41, 41);
+}
+.uset{
+    width:100%;
+    height:50px;
+    border-radius:10px;
+    display:flex;
+    align-items: center;
+    padding-left:70px;
+    margin-top:30px;
+    background-color:rgb(199, 183, 183);
+}
+
+
+.chats .header{
+    width:100%;
+    background-color:rgb(71, 80, 95);
+    height:100px;
+}
+.chats .header h1,p{
+    padding-left:30px;
+    color:white;
+}
+
+.chats .main{
+    width:100%;
+    overflow-y: auto;
+    scrollbar-width:none;
+    background-color:rgb(104, 104, 155);
+    height:560px;
+}
+.chats .footer{
+    width:100%;
+    display: flex;
+    align-items: center;
+    gap:10px;
+    background-color: rgb(59, 83, 83);
+    height:68px;
+}
+.footer input{
+    height:35px;
+    border-radius:20px;
+    background:rgb(86, 126, 109);
+    color:white;
+    padding-left:20px;
+    outline:none;
+    border:none;
+    width:860px;
+    margin-left:70px;
+    
+}
+.footer i{
+    font-size:30px;
+    color:white;
+}
+.main{
+    padding-top:40px;
+}
+
+.main .men{
+    width:300px;
+    margin-left:20px;
+    padding:10px 10px;
+    font-family:'Times New Roman', Times, serif;
+    word-break: break-all;
+    border:1px solid white;
+    height:auto;
+    border-top-left-radius:20px;
+    border-bottom-right-radius:20px;
+    background-color: rgb(132, 127, 127);
+    
+}
+.main .userchats{
+    width:300px;
+    border-top-left-radius:20px;
+    border-bottom-right-radius:20px;
+    font-family:'Times New Roman', Times, serif;
+    border:1px solid white;
+    padding:10px 10px;
+    height:auto;
+    word-break: break-all;
+    background-color: rgb(65, 61, 61);
+    margin-left:70%;    
+}
