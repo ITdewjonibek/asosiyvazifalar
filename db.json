@@ -1,0 +1,9 @@
+{
+    "foods": [
+      { "id": 1, "name": "Osh", "price": 12000 },
+      { "id": 2, "name": "Lag'mon", "price": 15000 },
+      { "id": 3, "name": "Shashlik", "price": 18000 }
+    ],
+    "orders": []
+  }
+  
